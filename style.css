@@ -46,21 +46,6 @@ body {
   height: 90vh;
 }
 
-.horiz-scroll .scroller .left-scroll p,
-.horiz-scroll .scroller .right-scroll p {
-  font-size: 3em;
-  color: white;
-  text-shadow: 0 0 10px #333;
-  margin: 0;
-}
-
-@media only screen and (max-width: 480px) {
-  .horiz-scroll .scroller .left-scroll p,
-  .horiz-scroll .scroller .right-scroll p {
-    color: black;
-  }
-}
-
 .horiz-scroll .scroller .scrollable-x {
   white-space: nowrap;
   overflow-x: scroll;
