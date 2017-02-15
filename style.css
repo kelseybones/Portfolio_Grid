@@ -39,11 +39,6 @@ nav {
     text-align: right;
 }
 
-<<<<<<< HEAD
-.nav {
-    margin-right: 16px;
-}
-
 nav a {
     margin-left: 25px;
     color: black;
@@ -59,20 +54,11 @@ nav a {
     height: 90vh;
     width: 100%;
     background-color: cadetblue;
-=======
-.horiz-scroll .scroller .scrollable-x {
-  white-space: nowrap;
-  overflow-x: scroll;
-  overflow-y: hidden;
->>>>>>> origin/master
-}
 
 .intro {
     padding-left: 100px;
     padding-right: 100px;
 }
-
-
 
 .section_2 {
     width: 100%;
