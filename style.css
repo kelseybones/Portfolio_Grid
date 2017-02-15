@@ -6,7 +6,13 @@ body {
 
 @font-face {
     font-family: neutra;
-    src: url(/fonts/NeutraText-BookAlt.tff)
+    src: url(fonts/NeutraText-BookAlt.ttf);
+}
+
+* {
+    box-sizing:border-box;
+    padding: 0;
+    margin: 0;
 }
 
 h1 {
@@ -78,30 +84,25 @@ nav a:hover {
     text-decoration: none;
 }
 
-.Span_50-Text {
+.div_50 {
+    display: flex;
+    align-items: center;
     flex-grow: 1;
     min-height: 500px;
     max-height: 500px;
     min-width: 496px;
     width: 50%;
     height: 100%;
+    padding: 20px;
     background-color: #EDEDED;
 }
 
-.Span_50-Image {
-    flex-grow: 1;
-        min-height: 500px;
-    max-height: 500px;
-    min-width: 496px;
-    width: 50%;
-    height: 100%;
+.random_bg_img {
     background-image: url(img/pp_mockup.png);
     background-size: cover;
 }
 
-
 .section_3 {
-    margin: 20 20 20 20px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -111,6 +112,7 @@ nav a:hover {
 }
 
 .about_me {
+    padding: 20px;
     max-width: 800px;
     width: 80%;
     text-align: left;
@@ -118,4 +120,25 @@ nav a:hover {
 
 .about_me p {
     color: white;
+}
+
+.Case_Study-Section {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image {
+    background-image: url(img/pexels-photo-52599.jpeg);
+    background-size: cover;
+    min-width: 500px;
+    min-height: 500px;
+    margin-bottom: 50px;
+}
+
+.text {
+    padding-bottom: 50px;
+    min-width: 500px;
+    max-width: 70%;
 }
