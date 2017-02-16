@@ -16,28 +16,26 @@ body {
 }
 
 h1 {
-    font-size: 36pt;
+    font-size: 38pt;
     color: black;
     margin: 0 0 6px 0;
     font-family: neutra;
 }
 
 h2 {
+    font-size: 22pt;
     text-decoration: none;
     color: black;
     text-transform: uppercase;
     font-family: neutra;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 p {
     font-size: 18pt;
     color: black;
     margin: 0; 
-}
-
-ol {
-    
+    font-weight: lighter;
 }
 
 nav {
@@ -91,16 +89,15 @@ nav a:hover {
     align-items: center;
     flex-grow: 1;
     min-height: 500px;
-    max-height: 700px;
     min-width: 496px;
     width: 50%;
     height: 100%;
-    padding: 30px;
+    padding: 40px;
     background-color: #EDEDED;
 }
 
 .div_50 p {
-    margin-right: 20px;
+    padding-right: 20px;
 }
 
 .random_bg_img {
@@ -125,6 +122,10 @@ nav a:hover {
 }
 
 .about_me p {
+    color: white;
+}
+
+.about_me h2 {
     color: white;
 }
 
