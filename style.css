@@ -89,12 +89,16 @@ nav a:hover {
     align-items: center;
     flex-grow: 1;
     min-height: 500px;
-    max-height: 500px;
+    max-height: 700px;
     min-width: 496px;
     width: 50%;
     height: 100%;
-    padding: 20px;
+    padding: 30px;
     background-color: #EDEDED;
+}
+
+.div_50 p {
+    margin-right: 20px;
 }
 
 .random_bg_img {
@@ -121,6 +125,8 @@ nav a:hover {
 .about_me p {
     color: white;
 }
+
+/*-----Case Study-----*/
 
 .Case_Study-Section {
     padding-top: 50px;
