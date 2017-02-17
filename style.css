@@ -5,8 +5,18 @@ body {
 }
 
 @font-face {
+    font-family: bebas;
+    src: url(fonts/BebasNeueRegular.otf);
+}
+
+@font-face {
+    font-family: playfair;
+    src: url(fonts/PlayfairDisplayItalic.otf);
+}
+
+@font-face {
     font-family: neutra;
-    src: url(fonts/NeutraText-BookAlt.ttf);
+    src: url(fonts/NeutraTextBook.ttf);
 }
 
 * {
@@ -16,10 +26,11 @@ body {
 }
 
 h1 {
-    font-size: 38pt;
+    font-size: 44pt;
     color: black;
     margin: 0 0 6px 0;
-    font-family: neutra;
+    font-family: bebas, sans-serif;
+    letter-spacing: 4px;
 }
 
 h2 {
@@ -27,15 +38,18 @@ h2 {
     text-decoration: none;
     color: black;
     text-transform: uppercase;
-    font-family: neutra;
+    font-family: neutra, sans-serif;
     margin-bottom: 20px;
+    letter-spacing: 2px;
 }
 
 p {
     font-size: 18pt;
     color: black;
     margin: 0; 
-    font-weight: lighter;
+    font-weight: 300;
+    line-height: 28pt;
+    font-family: neutra;
 }
 
 nav {
@@ -52,6 +66,7 @@ nav {
 }
 
 nav a {
+    font-family: neutra, sans-serif;
     margin-left: 25px;
     color: black;
     font-size: 1em;
@@ -73,8 +88,17 @@ nav a:hover {
 }
 
 .intro {
-    padding-left: 20%;
+    padding-left: 15%;
     padding-right: 100px;
+}
+
+.cursive {
+    font-family: playfair;
+    text-transform: lowercase;
+}
+
+.small {
+    font-size: 14pt;
 }
 
 .section_2 {
@@ -97,7 +121,7 @@ nav a:hover {
 }
 
 .div_50 p {
-    padding-right: 20px;
+    padding-right: 50px;
 }
 
 .random_bg_img {
@@ -114,8 +138,8 @@ nav a:hover {
 }
 
 .about_me {
-    padding-left: 20%;
-    padding-right: 20pt;
+    padding-left: 15%;
+    padding-right: 100px;
     margin-top: 120px;
     margin-bottom: 120px;
     text-align: left;
