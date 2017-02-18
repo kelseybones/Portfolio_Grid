@@ -129,12 +129,8 @@ nav a:hover {
     min-width: 496px;
     width: 50%;
     height: 100%;
-    padding: 40px;
+    padding: 80px;
     background-color: #EDEDED;
-}
-
-.div_50 p {
-    padding-right: 50px;
 }
 
 .random_bg_img {
