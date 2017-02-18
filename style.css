@@ -56,6 +56,23 @@ a {
     text-decoration: none;
 }
 
+.cursive {
+    font-family: playfair;
+    text-transform: lowercase;
+}
+
+.small {
+    font-size: 14pt;
+}
+
+.large {
+    font-size: 44pt;
+}
+
+.white {
+    color: white;
+}
+
 nav {
     padding-right: 10px;
     display: flex;
@@ -95,15 +112,6 @@ nav a:hover {
 .intro {
     padding-left: 15%;
     padding-right: 100px;
-}
-
-.cursive {
-    font-family: playfair;
-    text-transform: lowercase;
-}
-
-.small {
-    font-size: 14pt;
 }
 
 .section_2 {
@@ -159,11 +167,12 @@ nav a:hover {
     color: #EFB326;
 }
 
-.about_image {
-    background-image: url(img/about.png);
-    background-size: cover;
-    display: block;
-    margin: 0 auto;
+.about_right {
+    background-color: #EFB326;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
 }
 
 /*-----Case Study-----*/
