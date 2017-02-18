@@ -129,8 +129,32 @@ nav a:hover {
     background-size: cover;
 }
 
+.section_3 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+}
+
+.col {
+    flex: 1;
+    flex-grow: 1;
+    min-height: 500px;
+    min-width: 496px;
+}
+
 .about {
-    padding: 50px;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.about_image {
+    background-image: url(img/about.png);
+    background-size: cover;
+    display: block;
+    margin: 0 auto;
 }
 
 /*-----Case Study-----*/
