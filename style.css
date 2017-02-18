@@ -125,33 +125,12 @@ nav a:hover {
 }
 
 .random_bg_img {
-    background-image: url(img/pp_mockup.png);
+    background-image: url(img/pexels-photo.jpg);
     background-size: cover;
 }
 
-.section_3 {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    width: 100%;
-    background-color: #3F4045;
-}
-
-.about_me {
-    padding-left: 15%;
-    padding-right: 100px;
-    margin-top: 120px;
-    margin-bottom: 120px;
-    text-align: left;
-    max-width: 1200px;
-}
-
-.about_me p {
-    color: white;
-}
-
-.about_me h2 {
-    color: white;
+.about {
+    padding: 50px;
 }
 
 /*-----Case Study-----*/
