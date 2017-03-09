@@ -125,10 +125,10 @@ nav a:hover {
     display: flex;
     align-items: center;
     flex-grow: 1;
-    min-height: 500px;
-    min-width: 496px;
     width: 50%;
     height: 100%;
+    min-height: 500px;
+    min-width: 496px;
     padding: 80px;
     background-color: #EDEDED;
 }
@@ -146,7 +146,7 @@ nav a:hover {
 .section_3 {
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     text-decoration: none;
 }
 
