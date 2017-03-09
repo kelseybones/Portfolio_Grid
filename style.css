@@ -74,7 +74,7 @@ a {
 }
 
 nav {
-    padding-right: 10px;
+    padding-right: 15px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -178,6 +178,51 @@ nav a:hover {
     align-content: center;
     align-items: center;
     justify-content: center;
+}
+
+footer {
+    padding-left: 7%;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    justify-content: space-between;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+    width: 100%;
+    background-color: #131313;
+    color: white;
+}
+
+footer h4 {
+    font-size: 1em;
+    font-family: neutra; 
+    font-weight: 200;
+    color: #bbbbbb;
+}
+
+footer .bottom-nav li {
+    text-decoration: none;
+    display: inline;
+    padding-right: 10px;
+}
+
+footer a {
+    color: white;
+    font-family: neutra;  
+    font-size: 1.2em;
+}
+
+footer a:hover {
+    color: #EFB326;
 }
 
 /*-----Case Study-----*/
