@@ -128,7 +128,7 @@ nav a:hover {
     width: 50%;
     height: 100%;
     min-height: 500px;
-    min-width: 496px;
+    min-width: 600px;
     padding: 80px;
     background-color: #EDEDED;
 }
@@ -254,4 +254,46 @@ footer a:hover {
     max-width: 800px;
     margin-left: 50px;
     margin-right: 50px;
+}
+
+/*-----Media Queries-----*/
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  
+{   .section_1 {
+    height: 60vh;
+    }
+    h1 {
+    font-size: 60pt;
+    }
+    h2 {
+        font-size: 32pt;
+    }
+    p {
+        font-size: 26pt;
+        line-height: 30pt;
+    }
+}
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+{   h1 {
+    font-size: 60pt;
+    }
+    h2 {
+        font-size: 32pt;
+    }
+    p {
+        font-size: 26pt;
+        line-height: 30pt;
+    }
+    nav {
+    padding-top: 20px;
+    }
+    nav a {
+    font-size: 26pt;
+    }
+    .section_1 {
+    height: 60vh;
+    }
 }
