@@ -133,6 +133,10 @@ nav a:hover {
     background-color: #EDEDED;
 }
 
+.reverse {
+    flex-wrap: wrap-reverse;
+}
+
 .personal_portfolio {
     background-image: url(img/pp_mockup.png);
     background-size: cover;
