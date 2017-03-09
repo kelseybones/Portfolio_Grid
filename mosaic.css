@@ -79,13 +79,112 @@ body {
     display: flex;
 
     -webkit-flex-flow: row wrap;
+
 }
 
 .flex-item {
-    background: tomato;
     width: 25%;
     height: 25vh;
     min-width: 320px;
     min-height: 300px;
     flex-grow: 1;
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s; /* Firefox < 16 */
+    -ms-animation: fadein 2s; /* Internet Explorer */
+    -o-animation: fadein 2s; /* Opera < 12.1 */
+        animation: fadein 2s;
 }
+
+.one {
+    background-image: url(img/001.png);
+    background-size: cover;
+}
+.two {
+    background-image: url(img/002.png);
+    background-size: cover;
+}
+.three {
+    background-image: url(img/004.png);
+    background-size: cover;
+}
+.four {
+    background-image: url(img/007_404_page.png);
+    background-size: cover;
+}
+.five {
+    background-image: url(img/16229322_255245918265260_116544624771727360_n.jpg);
+    background-size: cover;
+}
+.six {
+    background-image: url(img/16464091_1784488445149473_2343431145649078272_n.jpg);
+    background-size: cover;
+}.seven {
+    background-image: url(img/16465193_248292208947037_8379815493275484160_n.jpg);
+    background-size: cover;
+}.eight {
+    background-image: url(img/16584850_1224050864330576_4611670797063290880_n.jpg);
+    background-size: cover;
+}.nine {
+    background-image: url(img/4_screens.png);
+    background-size: cover;
+}.ten {
+    background-image: url(img/app_icon.png);
+    background-size: cover;
+}.eleven {
+    background-image: url(img/asterisk.png);
+    background-size: cover;
+}.twelve {
+    background-image: url(img/book_cover_1_dribbble.png);
+    background-size: cover;
+}.thirteen {
+    background-image: url(img/branding_mockup_1_crop.png);
+    background-size: cover;
+}.fourteen {
+    background-image: url(img/daily_ui-003.png);
+    background-size: cover;
+}.fifteen {
+    background-image: url(img/daily_ui_002.png);
+    background-size: cover;
+}.sixteen {
+    background-image: url(img/dailyui_001_sign_up.png);
+    background-size: cover;
+}.seventeen {
+    background-image: url(img/double_whammy_.png);
+    background-size: cover;
+}.eighteen {
+    background-image: url(img/dribbble.png);
+    background-size: cover;
+}.nineteen {
+    background-image: url(img/dribbble_daily_ui.png);
+    background-size: cover;
+}.twenty {
+    background-image: url(img/love-dribbble.png);
+    background-size: cover;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
