@@ -95,7 +95,7 @@ nav a {
     letter-spacing: 5px;
     text-decoration: none;
     text-transform: uppercase;
-    transition: color 0.3s ease;;
+    transition: color 0.3s ease;
 }
 
 nav a:hover {
@@ -120,6 +120,19 @@ nav a:hover {
     display: flex;
     flex-wrap: wrap;
     text-decoration: none;
+}
+
+.overlay {
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    min-height: 500px;
+    background-color:rgba(255,255,255,0);
+    transition: background-color 0.3s ease;
+}
+
+.overlay:hover {
+    background-color:rgba(255,255,255,0.5);
 }
 
 .div_50 {
