@@ -75,11 +75,11 @@ a {
 }
 
 nav {
+    right: 0;
     padding-right: 15px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    width: 100%;
     height: 50px;
     position: fixed;
     background-color: white;
@@ -111,7 +111,7 @@ nav a:hover {
 }
 
 .intro {
-    padding-left: 15%;
+    padding-left: 20%;
     padding-right: 100px;
 }
 
@@ -229,7 +229,7 @@ footer a:hover {
 /*-----Case Study-----*/
 
 .Case_Study-Section {
-    text-align: left;
+    text-align: justify;
     padding-top: 80px;
     display: flex;
     flex-direction: column;
@@ -243,16 +243,14 @@ footer a:hover {
 
 .image {
     padding-bottom: 30px;
-    min-width: 300px;
+    min-width: 400px;
     max-width: 800px;
-    margin-left: 50px;
-    margin-right: 50px;
 }
 
 .text {
     padding-bottom: 50px;
     min-width: 300px;
-    max-width: 800px;
+    max-width: 600px;
     margin-left: 50px;
     margin-right: 50px;
 }
