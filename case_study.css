@@ -1,0 +1,80 @@
+.Case_Study-Section {
+    width: 100vw;
+    text-align: left;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Case_Study-Section img {
+    padding-bottom: 30px;
+    min-width: 400px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.Case_Study-Section p {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.our_work {
+    padding-top: 30px;
+}
+
+.text {
+    padding-bottom: 50px;
+    min-width: 300px;
+    max-width: 600px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.arrow {
+    position: absolute;
+    z-index: 10;  
+    max-width: 30px;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.arrow img {
+    width: 150%;
+}
+
+.arrow.next {
+    top: 0;
+    right: 0;
+    padding-right: 15px;
+}
+
+.arrow.previous {
+    top: 0;
+    left: 0;
+    padding-left: 15px;
+}
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 1024px) {   
+    .Case_Study-Section p {
+        font-size: 300%;
+    }
+    .Case_Study-Section h1 {
+        font-size: 800%;
+    }
+    .Case_Study-Section h2 {
+        font-size: 400%;
+    }
+}
