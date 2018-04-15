@@ -9,7 +9,8 @@
 
 .Case_Study-Section img {
     padding-bottom: 30px;
-    min-width: 400px;
+    min-width: 300px;
+    max-width: 700px;
     justify-content: center;
     align-content: center;
     align-items: center;
@@ -68,13 +69,7 @@
 @media only screen 
 and (min-device-width : 375px) 
 and (max-device-width : 1024px) {   
-    .Case_Study-Section p {
-        font-size: 300%;
-    }
-    .Case_Study-Section h1 {
-        font-size: 800%;
-    }
-    .Case_Study-Section h2 {
-        font-size: 400%;
+    .Case_Study-Section img {
+        width: 100%;   
     }
 }
