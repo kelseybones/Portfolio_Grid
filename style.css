@@ -85,7 +85,6 @@ a {
     color: white;
 }
 
-/*
 nav {
     z-index: 10;
     right: 0;
@@ -114,39 +113,6 @@ nav a {
 nav a:hover {
     color: #EFB326;
 }
-
-*/
-
-.test {
-    z-index: 10;
-    right: 0;
-    padding-right: 15px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    height: 50px;
-    position: fixed;
-    background-color: white;
-    float: right;
-    text-align: right;
-}
-
-.test a {
-    font-family: neutra, sans-serif;
-    margin-left: 25px;
-    color: black;
-    font-size: 100%;
-    letter-spacing: 5px;
-    text-decoration: none;
-    text-transform: uppercase;
-    transition: color 0.3s ease;
-}
-
-.test a:hover {
-    color: #EFB326;
-}
-
-
 
 .align-left {
     text-align: left;
