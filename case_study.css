@@ -25,6 +25,14 @@
     padding-top: 30px;
 }
 
+.left-aligned-content {
+    width: 100%;
+    min-width: 300px;
+    max-width: 600px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
 .text {
     padding-bottom: 50px;
     min-width: 300px;
@@ -68,8 +76,18 @@
 
 @media only screen 
 and (min-device-width : 375px) 
-and (max-device-width : 1024px) {   
+and (max-device-width : 1024px) {
+    .Case_Study-Section h1 {
+        font-size: 400%;
+    }
+    .Case_Study-Section h2 {
+        font-size: 180%;
+    }
     .Case_Study-Section img {
         width: 100%;   
+    }
+    
+    .left-aligned-content {
+        padding: 0 50px;   
     }
 }
