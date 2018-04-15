@@ -136,9 +136,14 @@ and (max-device-width : 1024px) {
 }
 
 @media only screen 
-and (min-device-width : 375px) 
+and (min-device-width : 320px) 
 and (max-device-width : 667px) {
     .section_1 {
         height: 60vh;
+    }
+    
+    .clear {
+        width: 22em;
+        margin-left: -11em;
     }
 }
